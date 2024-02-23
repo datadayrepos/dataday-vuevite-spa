@@ -1,0 +1,77 @@
+{
+  "content": {
+    "page1": {
+      "header": "Bienvenue à notre service",
+      "description": "Choisissez l'une des options ci-dessous pour commencer :",
+      "actionButton": "Continuer"
+    },
+    "page2": {
+      "header": "Obtenez plus avec notre application",
+      "description": "Maximisez votre expérience en utilisant notre application dédiée.",
+      "guidance": "Avantages de l'utilisation de l'application",
+      "guidanceText": [
+        "En téléchargeant notre application, vous avez un accès instantané à des fonctionnalités exclusives non disponibles sur notre site web.",
+        "Profitez d'une expérience sans couture adaptée à votre appareil, avec des temps de chargement plus rapides et des notifications sur les mises à jour importantes.",
+        "Si vous êtes nouveau ici, l'application vous guidera pas à pas dans la configuration de votre compte. Les utilisateurs existants peuvent facilement se connecter et synchroniser leurs données."
+      ],
+      "actionButton": "Télécharger l'application"
+    }
+  },
+  "errorMsg": {
+    "attemptsExhausted": "Oups ! Tous les essais pour le code PIN ont été utilisés. Pas de problème, vous pouvez toujours recommencer le processus. Nous sommes là pour vous remettre sur les rails !",
+    "pinCodeExpired": "Salut ! Il semble que votre code PIN a expiré. Pas de problème, cependant – vous pouvez facilement recommencer le processus pour en obtenir un nouveau. Nous sommes là pour vous aider à traverser cela !",
+    "pinCodeNoTicket": "On dirait qu'il n'y a pas de ticket de code PIN ici, désolé. Essayons de recommencer le processus, et nous allons arranger ça !",
+    "pinCodeWrong": "Oups ! Il semble que ce code PIN ne correspond pas. Pas de stress, essayez encore ou cliquez sur 'Oubli du code PIN' si votre mémoire vous joue des tours. Nous sommes là pour aider !",
+    "setDisplayname": "Définissons un nom d'affichage pour que vos collègues puissent facilement vous reconnaître !",
+    "setAliasname": "Que diriez-vous de définir un nom d'équipe sympa ? Il est temps de faire preuve de créativité !",
+    "urlTicketError": "La ressource demandée n'est pas disponible ou le lien peut être incorrect. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le support ou essayer d'accéder à la ressource depuis le site officiel."
+  },
+  "errorApi": {
+    "msg400": "Oups ! On dirait que quelque chose n'est pas tout à fait correct. Veuillez vérifier vos informations et réessayer.",
+    "msg401": "Oh non ! Nous n'avons pas pu vérifier vos identifiants. Veuillez réessayer.",
+    "msg403": "Vous êtes connecté, mais malheureusement, vous n'avez pas accès à cela.",
+    "msg404": "Oh non ! Nous n'avons pas pu trouver ce que vous cherchiez.",
+    "msg405": "Oups ! La manière dont vous essayez d'accéder à cela n'est pas autorisée.",
+    "msg408": "Désolé, votre demande a expiré. Veuillez réessayer.",
+    "msg409": "Attendez ! Il semble y avoir un conflit avec vos données.",
+    "msg422": "Uh-oh ! Ce mot de passe semble un peu trop facile à deviner. Essayez quelque chose de plus complexe pour une meilleure sécurité.",
+    "msg500": "Aïe ! Nous rencontrons des problèmes techniques. Veuillez vérifier à nouveau dans une minute.",
+    "msg501": "Nous sommes désolés, mais cette fonctionnalité n'est pas encore disponible.",
+    "msg502": "Oh la la ! Nous rencontrons des problèmes de réseau.",
+    "msg503": "Nos excuses, le service est temporairement indisponible. Nous travaillons à le réparer !",
+    "msg504": "Votre demande a expiré. Veuillez réessayer.",
+    "msg701": "Oups ! Ce code PIN ne correspondait pas tout à fait. Ne vous inquiétez pas, vous avez {n} tentatives supplémentaires. Essayez encore !",
+    "msg702": "Oh la la ! Vos tentatives sont épuisées. Ne vous inquiétez pas, cliquez simplement sur le bouton ci-dessous pour revenir à la page de connexion et nous réessayerons."
+  },
+  "validationError": {
+    "emailformatError": "Hmm, cela ne semble pas être une adresse email valide. Pouvez-vous la vérifier à nouveau ?",
+    "emailBlankError": "Nous avons besoin de votre adresse email avant de pouvoir continuer.",
+    "passBlankError": "On dirait que vous avez oublié votre mot de passe. Veuillez le saisir.",
+    "passshortError": "Juste pour assurer sa sécurité, votre mot de passe doit comporter au moins {n} caractères.",
+    "passBlankConfirmError": "Confirmons votre mot de passe, veuillez le saisir à nouveau.",
+    "passDiffError": "Vos mots de passe ne semblent pas correspondre. Pourriez-vous vérifier ?",
+    "pincompleteError": "Votre code PIN n'est pas complet. Pourriez-vous le vérifier ?",
+    "pinExcactError": "Votre code PIN doit être exactement de {n} chiffres.",
+    "fieldBlankError": "Ce champ ne peut pas être laissé vide, veuillez le remplir.",
+    "fieldMinError": "Ce champ doit comporter au moins {n} caractères.",
+    "fieldMaxError": "Ce champ doit comporter un maximum de {n} caractères.",
+    "fieldNumberError": "Seuls les chiffres sont autorisés dans ce champ.",
+    "fieldSpecialError": "Ce champ ne peut avoir que des tirets bas comme caractères spéciaux.",
+    "fieldEmojiError": "Ce champ ne peut contenir que des lettres, des chiffres, des espaces, des tirets, des tirets bas et certains émojis.",
+    "ticketGeneralError": "Une erreur s'est produite. Veuillez réessayer.",
+    "ticketNonceMissingError": "Les informations de nonce sont manquantes.",
+    "ticketIdMissingError": "Les informations d'ID de ticket sont manquantes.",
+    "ticketIntentMissingError": "Les informations d'intention de ticket sont manquantes.",
+    "ticketExpiryTimestampMissingError": "Les informations de timestamp d'expiration sont manquantes.",
+    "ticketExpiredError": "Le ticket a expiré.",
+    "ticketAttemptsExhaustedError": "Le nombre de tentatives de vérification a été épuisé."
+  },
+  "exception": {
+    "subTitle403": "Désolé, vous n'avez pas accès à cette page.",
+    "subTitle404": "Désolé, la page que vous avez visitée n'existe pas.",
+    "subTitle500": "Désolé, le serveur signale une erreur.",
+    "noDataTitle": "Pas de données sur la page actuelle.",
+    "networkErrorTitle": "Erreur de réseau",
+    "networkErrorSubTitle": "Désolé, votre connexion réseau a été déconnectée, veuillez vérifier votre réseau !"
+  }
+}

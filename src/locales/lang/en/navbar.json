@@ -1,0 +1,77 @@
+{
+  "content": {
+    "page1": {
+      "header": "Welcome to Our Service",
+      "description": "Choose one of the options below to get started:",
+      "actionButton": "Continue"
+    },
+    "page2": {
+      "header": "Get More with Our App",
+      "description": "Maximize your experience by using our dedicated application.",
+      "guidance": "Benefits of Using the App",
+      "guidanceText": [
+        "By downloading our app, you gain instant access to exclusive features not available on our website.",
+        "Enjoy a seamless experience tailored to your device, with faster load times and notifications about important updates.",
+        "If you're new here, the app will guide you through setting up your account step by step. Existing users can easily log in and sync their data."
+      ],
+      "actionButton": "Download the App"
+    }
+  },
+  "errorMsg": {
+    "attemptsExhausted": "Oops! All attempts for the pincode have been used. No problem, you can always restart the process. We're here to get you back on track!",
+    "pinCodeExpired": "Hey there! It looks like your pincode has expired. No problem, though – you can easily start the process again to get a new one. We're here to help you through it!",
+    "pinCodeNoTicket": "Looks like there’s no PIN code ticket here, sorry. Let’s try starting the process again, and we’ll sort it out!",
+    "pinCodeWrong": "Oops! Looks like that pincode didn't match. No stress, give it another shot or hit 'Forgot Pincode' if your memory's playing tricks. We're here to help!",
+    "setDisplayname": "Let's set a display name so your colleagues can easily recognize you!",
+    "setAliasname": "How about setting a cool team name? It's time to get creative!",
+    "urlTicketError": "The requested resource is not available or the link may be incorrect. If you believe this is an error, please contact support or try accessing the resource from the official site."
+  },
+  "errorApi": {
+    "msg400": "Whoops! Looks like something's not quite right. Please check your information and try again.",
+    "msg401": "Uh-oh! We couldn't verify your credentials. Please try again.",
+    "msg403": "You're logged in, but unfortunately, you don't have access to this.",
+    "msg404": "Oh no! We couldn't find what you were looking for.",
+    "msg405": "Oops! The way you're trying to access this isn't allowed.",
+    "msg408": "Sorry, your request timed out. Please try again.",
+    "msg409": "Hang on! There seems to be a conflict with your data.",
+    "msg422": "Uh-oh! That password seems a bit too easy to guess. Try something more complex for better security.",
+    "msg500": "Yikes! We're experiencing some technical issues. Please check again in a minute.",
+    "msg501": "We're sorry, but that feature isn't available yet.",
+    "msg502": "Oh dear! We're having some network troubles.",
+    "msg503": "Our apologies, the service is temporarily unavailable. We're working to fix it!",
+    "msg504": "Your request has timed out. Please try again.",
+    "msg701": "Oops! That pin didn't quite match. Don't worry, you have {n} more attempts. Give it another shot!",
+    "msg702": "Oh dear! Your attempts are exhausted. Don't worry, just click the button below to return to the login page and we'll try again."
+  },
+  "validationError": {
+    "emailformatError": "Hmm, that doesn't look like a valid email address. Can you check it again?",
+    "emailBlankError": "We need your email address before you can continue.",
+    "passBlankError": "Looks like you forgot your password. Please enter it in.",
+    "passshortError": "Just to make sure it's secure, your password should be at least {n} characters.",
+    "passBlankConfirmError": "Let's confirm your password, please enter it again.",
+    "passDiffError": "Your passwords don't seem to match. Could you please check?",
+    "pincompleteError": "Your pin code isn't complete. Could you please check it?",
+    "pinExcactError": "Your pin code needs to be exactly {n} digits.",
+    "fieldBlankError": "This field can't be left blank, please fill it in.",
+    "fieldMinError": "This field should have at least {n} characters.",
+    "fieldMaxError": "This field should have a maximum of {n} characters.",
+    "fieldNumberError": "Only numbers are allowed in this field.",
+    "fieldSpecialError": "This field can only have underscores for special characters.",
+    "fieldEmojiError": "This field can only contain letters, numbers, spaces, hyphens, underscores, and certain emojis.",
+    "ticketGeneralError": "An error occurred. Please try again.",
+    "ticketNonceMissingError": "Nonce information is missing.",
+    "ticketIdMissingError": "Ticket ID information is missing.",
+    "ticketIntentMissingError": "Ticket intent information is missing.",
+    "ticketExpiryTimestampMissingError": "Expiry timestamp information is missing.",
+    "ticketExpiredError": "The ticket has expired.",
+    "ticketAttemptsExhaustedError": "Number of attempts for verification has been exhausted."
+  },
+  "exception": {
+    "subTitle403": "Sorry, you don't have access to this page.",
+    "subTitle404": "Sorry, the page you visited does not exist.",
+    "subTitle500": "Sorry, the server is reporting an error.",
+    "noDataTitle": "No data on the current page.",
+    "networkErrorTitle": "Network Error",
+    "networkErrorSubTitle": "Sorry，Your network connection has been disconnected, please check your network!"
+  }
+}

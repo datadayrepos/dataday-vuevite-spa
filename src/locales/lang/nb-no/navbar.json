@@ -1,0 +1,122 @@
+{
+  "content": {
+    "page1": {
+      "header": "Velkommen til vår tjeneste",
+      "description": "Velg et av alternativene nedenfor for å komme i gang:",
+      "actionButton": "Fortsett"
+    },
+    "page2": {
+      "header": "Få mer med vår app",
+      "description": "Maksimer opplevelsen din ved å bruke vår dedikerte applikasjon.",
+      "guidance": "Fordeler ved å bruke appen",
+      "guidanceText": [
+        "Ved å laste ned appen vår får du umiddelbar tilgang til eksklusive funksjoner som ikke er tilgjengelige på nettstedet vårt.",
+        "Nyt en sømløs opplevelse tilpasset enheten din, med raskere lastetider og varsler om viktige oppdateringer.",
+        "Hvis du er ny her, vil appen veilede deg gjennom oppsettet av kontoen din trinn for trinn. Eksisterende brukere kan enkelt logge inn og synkronisere dataene sine."
+      ],
+      "proceedWith": "Last ned appen"
+    }
+  },
+  "errorMsg": {
+    "attemptsExhausted": "Ops! Alle forsøk på pinkoden har blitt brukt opp. Ikke noe problem, du kan alltid starte prosessen på nytt. Vi hjelper deg tilbake på sporet!",
+    "pinCodeEnter": "Vennligst skriv inn PIN-koden vi sendte deg.",
+    "pinCodeExpired": "Hei der! Det ser ut som om pinkoden din har utløpt. Men ingen grunn til bekymring – du kan enkelt starte prosessen på nytt for å få en ny en. Vi er her for å hjelpe deg gjennom det!",
+    "pinCodeNoTicket": "Ser ut som det ikke er noen PIN-kodebillett her, beklager. La oss prøve å starte prosessen igjen, og vi vil ordne opp!",
+    "pinCodeWrong": "Ops! Ser ut som om pinkoden ikke stemmer. Ingen stress, prøv igjen eller trykk på 'Glemt Pincode' hvis hukommelsen spiller deg et puss. Vi er her for å hjelpe!",
+    "setDisplayname": "La oss sette et visningsnavn slik at kollegene dine enkelt kan gjenkjenne deg!",
+    "setAliasname": "Hva med å sette et kult lag navn? Det er på tide å bli kreativ!",
+    "urlTicketError": "Den forespurte ressursen er ikke tilgjengelig eller lenken kan være feil. Hvis du mener dette er en feil, vennligst kontakt støtte eller prøv å få tilgang til ressursen fra den offisielle siden."
+  },
+  "errorApi": {
+    "msg400": "Oisann! Noe ser ut til å være galt. Sjekk informasjonen din og prøv igjen.",
+    "msg401": "Å nei! Vi kunne ikke bekrefte identiteten din. Vennligst prøv igjen.",
+    "msg403": "Du er logget inn, men dessverre har du ikke tilgang til dette.",
+    "msg404": "Å nei! Vi kunne ikke finne det du lette etter.",
+    "msg405": "Ups! Måten du prøver å få tilgang til dette på er ikke tillatt.",
+    "msg408": "Beklager, forespørselen din ble tidsavbrutt. Vennligst prøv igjen.",
+    "msg409": "Vent litt! Det ser ut til å være en konflikt med dataene dine.",
+    "msg422": "Oi! Det passordet ser litt for lett ut å gjette. Prøv noe mer komplekst for bedre sikkerhet.",
+    "msg500": "Oi da! Vi opplever noen tekniske problemer. Vennligst vent et øyeblikk.",
+    "msg501": "Vi beklager, men den funksjonen er ikke tilgjengelig ennå.",
+    "msg502": "Å kjære! Vi har noen nettverksproblemer.",
+    "msg503": "Beklager, tjenesten er midlertidig utilgjengelig. Vi jobber for å fikse det!",
+    "msg504": "Forespørselen din har gått ut på tid. Vennligst prøv igjen.",
+    "msg505": "Beklager, forespørselen din støttes ikke med denne HTTP-versjonen.",
+    "msg701": "Oops! Den PIN-koden stemte ikke helt. Ikke bekymre deg, du har {n} flere forsøk. Prøv igjen!",
+    "msg702": "Å nei! Forsøkene dine er oppbrukt. Ikke bekymre deg, bare klikk på knappen nedenfor for å gå tilbake til innloggingssiden, så prøver vi igjen."
+  },
+  "validationError": {
+    "emailformatError": "Hmm, det ser ikke ut som en gyldig e-postadresse. Kan du sjekke den igjen?",
+    "emailBlankError": "Vi trenger e-postadressen din før du kan fortsette.",
+    "passBlankError": "Det ser ut som du glemte passordet ditt. Vennligst skriv det inn.",
+    "passshortError": "For å sikre at det er sikkert, bør passordet ditt være minst {n} tegn.",
+    "passBlankConfirmError": "La oss bekrefte passordet ditt, vennligst skriv det inn igjen.",
+    "passDiffError": "Passordene dine ser ikke ut til å stemme overens. Kan du sjekke?",
+    "pincompleteError": "PIN-koden din er ikke fullstendig. Kan du sjekke den?",
+    "pinExcactError": "PIN-koden din må være nøyaktig {n} siffer.",
+    "fieldBlankError": "Dette feltet kan ikke stå tomt, vennligst fyll det ut.",
+    "fieldMinError": "Dette feltet bør ha minst {n} tegn.",
+    "fieldMaxError": "Dette feltet bør ha maksimalt {n} tegn.",
+    "fieldNumberError": "Bare tall er tillatt i dette feltet.",
+    "fieldSpecialError": "Dette feltet kan bare ha understrek som spesialtegn.",
+    "fieldEmojiError": "Dette feltet kan bare inneholde bokstaver, tall, mellomrom, bindestreker, understrekninger og visse emojis.",
+    "ticketGeneralError": "En feil oppsto. Vennligst prøv igjen.",
+    "ticketNonceMissingError": "Nonce-informasjon mangler.",
+    "ticketIdMissingError": "Ticket ID-informasjon mangler.",
+    "ticketIntentMissingError": "Ticket-intensjonsinformasjon mangler.",
+    "ticketExpiryTimestampMissingError": "Informasjon om utløpstidspunkt mangler.",
+    "ticketExpiredError": "Billetten har utløpt.",
+    "ticketAttemptsExhaustedError": "Antall forsøk på verifisering er brukt opp."
+  },
+  "app": {
+    "logoutTip": "Reminder",
+    "logoutMessage": "Confirm to exit the system?",
+    "menuLoading": "Menu loading..."
+  },
+  "exception": {
+    "backLogin": "Back Login",
+    "backHome": "Back Home",
+    "subTitle403": "Sorry, you don't have access to this page.",
+    "subTitle404": "Sorry, the page you visited does not exist.",
+    "subTitle500": "Sorry, the server is reporting an error.",
+    "noDataTitle": "No data on the current page.",
+    "networkErrorTitle": "Network Error",
+    "networkErrorSubTitle": "Sorry，Your network connection has been disconnected, please check your network!"
+  },
+  "lock": {
+    "unlock": "Click to unlock",
+    "alert": "Lock screen password error",
+    "backToLogin": "Back to login",
+    "entry": "Enter the system",
+    "placeholder": "Please enter the lock screen password or user password"
+  },
+  "loginx": {
+    "nodisplaynameError": "Vennligst skriv in et navn",
+    "noformError": "Vennligst fyll ut hele skjemaet",
+    "passshortError": "Passordet er på minimum {n} tegn",
+    "pinenterError": "vennligst skriv inn pin koden",
+    "pincorrectError": "Feil kode. Du har {n} forsøk igjen",
+    "error401": "Ugyldige login informasjon",
+    "backSignIn": "Back sign in",
+    "mobileSignInFormTitle": "Mobile sign in",
+    "qrSignInFormTitle": "Qr code sign in",
+    "signInTitle": "Backstage management system",
+    "signInDesc": "Enter your personal details and get started!",
+    "policy": "I agree to the xxx Privacy Policy",
+    "scanSign": "scanning the code to complete the login",
+    "rememberMe": "Remember me",
+    "loginSuccessTitle": "Login successful",
+    "loginSuccessDesc": "Welcome back",
+    "smsPlaceholder": "Please input sms code",
+    "mobilePlaceholder": "Please input mobile",
+    "policyPlaceholder": "Register after checking",
+    "userName": "Brukernavn",
+    "newuserName": "Ny epost",
+    "loginpage": "vennligst skriv inn påloggingsinformasjonen din",
+    "pwconfirmpage": "vennligst skriv inn dine nye passord ",
+    "newemailpage": "vennligst skriv inn din nye epost",
+    "smsCode": "SMS code",
+    "mobile": "Mobile"
+  },
+  "button": {}
+}
