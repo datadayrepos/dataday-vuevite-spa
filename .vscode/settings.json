@@ -1,9 +1,14 @@
 {
 
+    // VS Code for Vite extension - antfu.vite
+    "vite.browserType": "system",
+    "vite.port": 5174,
+    "vite.https": true,
+    
     "typescript.tsdk": "node_modules/typescript/lib",
   
     // Enable the flat config support
-    "eslint.experimental.useFlatConfig": true,
+    "eslint.useFlatConfig": true,
   
     // Disable the default formatter
     "prettier.enable": false,

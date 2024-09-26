@@ -33,7 +33,7 @@
     "pub": "npm publish --access public"
   },
   "dependencies": {
-    "@datadayrepos/icons": "0.0.1-beta.23",
+    "@datadayrepos/icons": "0.0.1-beta.29",
     "@datadayrepos/lodashts": "0.0.1-beta.40",
     "@datadayrepos/popperts": "0.0.1-beta.22",
     "@datadayrepos/usevuecore": "10.5.0-37",
@@ -42,31 +42,30 @@
     "@vue/shared": "3.3.4",
     "@vueuse/head": "2.0.0",
     "pinia": "2.1.6",
-    "vue": "3.3.4",
-    "vue-router": "4.2.5"
+    "vue": "3.4.38",
+    "vue-router": "4.4.5"
   },
   "notice": "No use or copy of this software is allowed without explicit written permission. All Rights Reserved.",
   "copyright": "Copyright (c) 2023 Ivar Strand All Rights Reserved",
   "devDependencies": {
-    "@datadayrepos/eslint-config": "^1.0.1-beta.11",
-    "@datadayrepos/eslint-plugin-datadayrepos": "1.0.0-Beta12",
+    "@antfu/eslint-config": "2.26.0",
     "@datadayrepos/ni": "^0.21.8",
-    "@types/node": "20.9.0",
-    "@typescript-eslint/eslint-plugin": "^6.7.5",
-    "@typescript-eslint/parser": "^6.7.5",
-    "@vitejs/plugin-vue": "^4.4.0",
-    "@vue/eslint-config-typescript": "^12.0.0",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.51.0",
-    "eslint-plugin-sort-keys": "^2.3.5",
-    "lint-staged": "^14.0.1",
+    "@types/node": "22.5.1",
+    "@typescript-eslint/eslint-plugin": "8.3.0",
+    "@typescript-eslint/parser": "8.3.0",
+    "@vitejs/plugin-vue": "5.1.2",
+    "@vue/eslint-config-typescript": "13.0.0",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.57.0",
+    "eslint-plugin-sort-keys": "2.3.5",
+    "lint-staged": "14.0.1",
     "pnpm": "^8.8.0",
     "postcss": "^8.4.31",
-    "postcss-import": "^15.1.0",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.2",
-    "vue-tsc": "^1.8.19"
+    "postcss-import": "15.1.0",
+    "tailwindcss": "3.4.13",
+    "typescript": "5.6.2",
+    "vite": "5.4.8",
+    "vue-tsc": "2.0.19"
   },
   "pnpm": {
     "peerDependencyRules": {
