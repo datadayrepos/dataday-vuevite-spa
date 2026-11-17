@@ -33,11 +33,11 @@
     "pub": "npm publish --access public"
   },
   "dependencies": {
-    "@datadayrepos/icons": "0.0.4",
-    "@datadayrepos/lodashts": "0.0.1-beta.40",
-    "@datadayrepos/popperts": "0.0.1-beta.22",
-    "@datadayrepos/usevuecore": "10.5.4",
-    "@datadayrepos/usevueshared": "10.5.4",
+    "@datadayrepos/icons": "0.0.5",
+    "@datadayrepos/lodashts": "0.0.3",
+    "@datadayrepos/popperts": "0.0.2",
+    "@datadayrepos/usevuecore": "10.5.6",
+    "@datadayrepos/usevueshared": "10.5.6",
     "@vue/runtime-core": "3.3.4",
     "@vue/shared": "3.3.4",
     "@vueuse/head": "2.0.0",
@@ -49,7 +49,6 @@
   "copyright": "Copyright (c) 2023 Ivar Strand All Rights Reserved",
   "devDependencies": {
     "@antfu/eslint-config": "2.26.0",
-    "@datadayrepos/ni": "0.21.10",
     "@types/node": "22.5.1",
     "@typescript-eslint/eslint-plugin": "8.3.0",
     "@typescript-eslint/parser": "8.3.0",
@@ -62,6 +61,7 @@
     "pnpm": "^8.8.0",
     "postcss": "^8.4.31",
     "postcss-import": "15.1.0",
+    "semver": "7.7.4",
     "tailwindcss": "3.4.13",
     "typescript": "5.6.2",
     "vite": "5.4.8",
